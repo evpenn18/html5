@@ -1,0 +1,22 @@
+html {
+	color: gold; 
+	font-size: 18px;
+}
+
+h1 {
+	color: blue;
+	text-shadow: 2px 2px 2px black;
+}
+
+body {
+	background-color: grey;
+}
+
+li {
+	border: 2px solid black;
+	margin: 10px 0;
+}
+
+footer {
+	border: 3px dashed blue;
+}
