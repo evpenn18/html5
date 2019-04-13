@@ -1,5 +1,5 @@
 html {
-	color: gold; 
+	color: yellow; 
 	font-size: 18px;
 }
 
@@ -12,9 +12,22 @@ body {
 	background-color: grey;
 }
 
+a:hover {
+	color: red;
+}
+
 li {
 	border: 2px solid black;
 	margin: 10px 0;
+}
+
+li::selection {
+	background-color: red;
+	color: purple;
+}
+
+img {
+	border: 2px solid blue;
 }
 
 footer {
