@@ -1,5 +1,5 @@
 html {
-	color: yellow; 
+	color: gold; 
 	font-size: 18px;
 }
 
@@ -17,8 +17,25 @@ a:hover {
 }
 
 li {
-	border: 2px solid black;
-	margin: 10px 0;
+	border: 2px solid blue;
+	border-bottom: 2px solid blue;
+	background-color: white;
+}
+
+ul li {
+	background-color: gold;
+	color: black;
+}
+
+header, footer {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 2px solid blue;
 }
 
 li::selection {
@@ -32,4 +49,6 @@ img {
 
 footer {
 	border: 3px dashed blue;
+	background-color: white;
+	color: black;
 }
