@@ -4,11 +4,26 @@ html {
 }
 
 h1 {
+	font-size: 36px; 
 	color: blue;
 	text-shadow: 2px 2px 2px black;
 }
 
+h2 {
+	font-size: 30px;
+	text-shadow: 2px 2px 2px black;
+	text-decoration: underline;
+}
+
+h3 {
+	text-decoration: bold;
+	text-decoration: underline;
+	font-size: 45px;
+}
+
 body {
+	display: grid;
+	grid-gap: 1px;
 	background-color: grey;
 }
 
@@ -47,8 +62,28 @@ img {
 	border: 2px solid blue;
 }
 
+video {
+	border: 2px solid blue;
+}
+
+figcaption {
+	background-color: white;
+	border: 2px solid blue;
+	color: blue;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 footer {
 	border: 3px dashed blue;
 	background-color: white;
 	color: black;
 }
+
+

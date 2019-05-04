@@ -4,22 +4,31 @@
 		<link rel="stylesheet" href="styles/site_style.css">
 		<meta charset="utf-8">
 		<title>Home</title>
-		<script type="application/ls+json">
+		<script type="application/ld+json"> 
+		{
 			"@context": "https://schema.org",
 			"type": "CreativeWork",
 			"creator": "Evan Pennington",
 			"dateCreated": "3/19/19",
-			"dateModified": "3/28/19",
+			"dateModified": "5/3/19",
 			"headline": "Evan",
-			"isFamilyFriendly": True,
-			"about": "Introduction statement, image, name",
-			"audience": "friends, class",
-			"alternativeHeadline": "Introduction",
-			{
-				"type": "WebPage",
-				"mainContentOfPage": "greeting statement",
-				"reviewedBy": "Dr. Burns"
-			}
+			"isFamilyFriendly": "True",
+
+			"about":
+			[
+				"Introduction statement",
+				"image",
+				"name"
+			],
+  
+			"audience":
+			[
+				"friends",
+				"class"
+			],
+  
+			"alternativeHeadline": "Introduction"
+		}
 		</script>
 	</head>
 	<body>
@@ -33,18 +42,67 @@
 				</center>
 			</ul>
 		</nav>
-		<p><center>Hello and welcome to my website!</center></p>
 		<figure>
-		    <center>
 			<img src="spring_break_17.jpg" alt="Florida 2017"
 			title="On boat tour, Ft. Lauderdale"
-			height="250"
-			width="250">
-			</center>
+			height="100"
+			width="100">
+			<figcaption>Evan Pennington<br>Senior - University of Kentucky</figcaption>
 		</figure>
+		<br>
+		<br>
+		<h3><center>Hello and welcome to my website!</center></h3>
+		<br>
+		<br>
+		<h2>Pictures of My Trip to Red River Gorge</h2>
+		<table>
+			<thead>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<figure>
+							<img src="bridge_pic.jpeg" alt="gorge_2019_pic_1"
+							class="rotate90"
+							title="Archer and I on bridge, Red River Gorge"
+							height="250"
+							width="250">
+						</figure>
+					</td>
+					<td>
+						<figure>
+							<img src="cliff_gorge.jpeg" alt="gorge_2019_pic_2"
+							class="rotate90"
+							title="First Picture of Cliff on trail, Red River Gorge"
+							height="250"
+							width="250">
+						</figure>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="hills_gorge.jpeg" alt="gorge_2019_pic_3"
+							class="rotate90"
+							title="First Picture of Hills on trail, Red River Gorge"
+							height="250"
+							width="250">
+						</figure>
+					</td>
+					<td>
+						<figure>
+							<img src="sunset_gorge.jpeg" alt="gorge_2019_pic_4"
+							class="rotate90"
+							title="Picture of Sunset, Red River Gorge"
+							height="250"
+							width="250">
+						</figure>
+				</tr>
+			</tbody>
+		</table>
 		<footer>
 			<p>Created by: Evan Pennington</p>
-			<p>Last Modified: 2019 - 19 - 3</p>
+			<p>Last Modified: 2019 - 2 - 5</p>
 		</footer>
 	</body>
 </html>

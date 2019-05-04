@@ -4,22 +4,31 @@
 		<link rel="stylesheet" href="styles/site_style.css">
 		<meta charset="utf-8">
 		<title>About</title>
-		<script type="application/ls+json">
+		<script type="application/ld+json"> 
+		{
 			"@context": "https://schema.org",
 			"type": "CreativeWork",
 			"creator": "Evan Pennington",
 			"dateCreated": "3/19/19",
-			"dateModified": "3/28/19",
-			"headline": "Intro to me",
-			"isFamilyFriendly": True,
-			"about": "Name, College",
-			"audience": "friends, class",
-			"alternativeHeadline": "About Page",
-			{
-				"type": "WebPage",
-				"mainContentOfPage": "brief introduction",
-				"reviewedBy": "Dr. Burns"
-			}
+			"dateModified": "5/3/19",
+			"headline": "About",
+			"isFamilyFriendly": "True",
+
+			"about":
+			[
+				"lifestyle description",
+				"image",
+				"graduation"
+			],
+  
+			"audience":
+			[
+				"friends",
+				"class"
+			],
+  
+			"alternativeHeadline": "Bio"
+		}
 		</script>
 	</head>
 	<body>
@@ -33,10 +42,35 @@
 				</center>
 			</ul>
 		</nav>
-		<p><center>My name is Evan Pennington.  I am a college student attending the University of Kentucky.</center></p>
+		<br>
+		<br>
+		<p><center>My name is Evan Pennington.  I am 21 years old.  I am a college student attending the University of Kentucky.  I will finish my degree in August.</center></p>
+		<p><center>I have walked at graduation but I must complete an internship.  I plan to remain in Lexington, Kentucky.  I am originally from </center></p>
+		<p><center>Independence, Kentucky.  I have a little brother and a twin sister.  I enjoy playing video games, watching shows and movies and </center></p>
+		<p><center>occasionally playing acoustic guitar.</center</p>
+		<br>
+		<figure>
+			<video width="400" controls
+			src="grad_vid.MOV"> </video>
+			<figcaption><br>Conclusion of Graduation ceremony! </figcaption>
+		</figure>
+		<br>
+		<br>
+		<figure>
+			<img src="friends_grad.jpeg" alt="grad_pic_1"
+			title="Tucker, Blake and I"
+			height="250"
+			width="250">
+		</figure>
+		<figure>
+			<img src="sister_me_grad.jpeg" alt="grad_pic_2"
+			title="Sister and Me"
+			height="250"
+			width="250">
+		</figure>
 		<footer>
 			<p>Created by: Evan Pennington</p>
-			<p>Last Modified: 2019 - 19 - 3</p>
+			<p>Last Modified: 2019 - 2 - 5</p>
 		</footer>
 	</body>
 </html>

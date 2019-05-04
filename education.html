@@ -4,22 +4,31 @@
 		<link rel="stylesheet" href="styles/site_style.css">
 		<meta charset="utf-8">
 		<title>Education</title>
-		<script type="application/ls+json">
+		<script type="application/ld+json"> 
+		{
 			"@context": "https://schema.org",
 			"type": "CreativeWork",
 			"creator": "Evan Pennington",
 			"dateCreated": "3/19/19",
-			"dateModified": "3/28/19",
-			"headline": "Evan",
-			"isFamilyFriendly": True,
-			"about": "Education experience",
-			"audience": "friends, class",
-			"alternativeHeadline": "School",
-			{
-				"type": "WebPage",
-				"mainContentOfPage": "Major",
-				"reviewedBy": "Dr. Burns"
-			}
+			"dateModified": "5/3/19",
+			"headline": "Education",
+			"isFamilyFriendly": "True",
+
+			"about":
+			[
+				"degree",
+				"image",
+				"interests"
+			],
+  
+			"audience":
+			[
+				"friends",
+				"class"
+			],
+  
+			"alternativeHeadline": "college"
+		}
 		</script>
 	</head>
 	<body>
@@ -34,26 +43,29 @@
 			</ul>
 		</nav>
 		<figure>
-			<center>
 			<img src="coffee.jpg" alt="cafe"
 			title="Cafe UK Campus"
 			height="250"
 			width="200">
-			</center>
+			<figcaption>Picture of me at cafe on campus</figcaption>
 		</figure>
+		<br>
 		<h2><center>University of Kentucky:</center></h2>
 		<h3><center>School of Information Science</center></h3>
 		<h4><center>Major: Information Communication Technology</center></h4>
 		<h4><center>Focus Area - Technology Management</center></h4>
+		<br>
 		<p><em>Areas of Interest:</em></p>
 		<ul>
 			<li>Web Development</li>
 			<li>UX Design</li>
 			<li>Databases</li>
 		</ul>
+		<br>
+		<br>
 		<footer>
 			<p>Created by: Evan Pennington</p>
-			<p>Last Modified: 2019 - 19 - 3</p>
+			<p>Last Modified: 2019 - 2 - 5</p>
 		</footer>
 	</body>
 </html>
